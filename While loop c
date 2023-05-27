@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+int num=763445;
+
+int rem=0;
+
+int count=0;
+
+while(num>0)
+
+{
+
+rem=num%10;
+
+count ++;
+
+num=num/10;
+
+}
+
+printf("%d", count);
+
+}
