@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() 
+{
+    char str[]="Hello";
+    printf("%S",strrev(str));
+
+
+
+    return 0;
+}
