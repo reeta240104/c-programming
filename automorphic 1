@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a,b,flag=0,x,y;
+    a=890625;
+    b=a*a;
+    while(a!=0&&b!=0)
+    {
+        x=a%10;
+        y=b%10;
+        if(x!=y){
+        flag=1;
+            break;
+        }
+        a=a/10;
+        b=b/10;
+    }
+    if(flag==0)
+    printf("automorphic number");
+    else
+    printf("not an automorphic number");
+
+    return 0;
+}
